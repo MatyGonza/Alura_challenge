@@ -1,28 +1,47 @@
-
+main{
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+}
 
 .header{
     background-color: #89bdd2;
 }
 
 .principal{
-    padding: 15px 0px 15px 0px;
+    display: flex;
+    flex-direction: row; /* Seteo el eje principal */
+    flex-wrap: wrap; /* Permito que haya multilinea */
+    justify-content: space-between; /* Como alinear en el eje principal*/
+    width: 100%;
     background-color: rgb(131, 209, 189);
 }
-.secundario{
-    width: 400px;
+
+.principal textarea{
+    resize: none;
+    width: 50%;
+}
+.secundario{  
+    width: 350px;
     height: 944px;
+
     top: 40px;
-    left: 1000px;
-    border-radius: 32px;
+    left: 50%;
     background-color: beige;
+    align-items: center;
     
     
 }
 
 .secundario textarea {
-    width: 50%;
+    text-align: center;
+    background-color: rgb(58, 58, 0);
+    border: none;
+    height: 30%;
+    resize: none;
 }
 
 .secundario picture img{
-    width: 25%;
+    width:50%;
 }
+
