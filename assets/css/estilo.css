@@ -1,8 +1,8 @@
-main{
-    width: 100%;
-    height: 100%;
-    justify-items: center;
+*{
+    margin: 0px;
+    padding: 0px;
 }
+
 
 .header{
     background-color: #89bdd2;
@@ -12,7 +12,8 @@ main{
     display: flex;
     flex-direction: row; /* Seteo el eje principal */
     flex-wrap: wrap; /* Permito que haya multilinea */
-    justify-content: space-between; /* Como alinear en el eje principal*/
+    justify-content: space-evenly; /* Como alinear en el eje principal*/
+    align-items: center;
     width: 100%;
     background-color: rgb(131, 209, 189);
 }
@@ -22,10 +23,8 @@ main{
     width: 50%;
 }
 .secundario{  
-    width: 350px;
-    height: 944px;
-
-    top: 40px;
+    width: 30%;
+    top: 0px;
     left: 50%;
     background-color: beige;
     align-items: center;
