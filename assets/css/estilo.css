@@ -1,6 +1,28 @@
+
+
+.header{
+    background-color: #89bdd2;
+}
+
 .principal{
-    background-color: aquamarine;
+    padding: 15px 0px 15px 0px;
+    background-color: rgb(131, 209, 189);
 }
 .secundario{
+    width: 400px;
+    height: 944px;
+    top: 40px;
+    left: 1000px;
+    border-radius: 32px;
+    background-color: beige;
     
+    
+}
+
+.secundario textarea {
+    width: 50%;
+}
+
+.secundario picture img{
+    width: 25%;
 }
