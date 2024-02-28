@@ -80,7 +80,7 @@
 .secundario-textarea {
     text-align: center;
     background-position: 50%;
-    background-image: url(./assets/img/Muñeco.png);
+    background-image: url(assets/img/Muñeco.png);
     background-repeat: no-repeat;
     background-size:70%;
     border-radius: 32px;
