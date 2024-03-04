@@ -22,7 +22,11 @@
     <main>
 			<section class="principal">
 				<div class="contenedor-texto">
-					<textarea class="principal-textarea" name="" id="" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+					<textarea id="texto" class="principal-textarea"  placeholder="Ingrese el texto aqui" ></textarea>
+					<!--
+						<input type="text" class="principal-textarea"  placeholder="Ingrese el texto aqui" pattern="[a-z]+$"" required>
+						
+					-->
 					<div class="contenedor-advertencia">
 						<h6>⚠️ Solo letras minúsculas y sin acentos</h6>
 					</div>
@@ -36,10 +40,10 @@
 					<textarea class="secundario-textarea" name="" id="" cols="30" rows="10" readonly>
 					</textarea>
 					<div class="contenedor-texto-secundario">
-						<h3>Ningún mensaje fue encontrado</h3>
-						<p>Ingresa el texto que desees encriptar o desencriptar.</p>
+						<h3 class="myP2">Ningún mensaje fue encontrado</h3>
+						<p class="myP2">Ingresa el texto que desees encriptar o desencriptar.</p>
 					</div>
-					<button class="btn-copiar" >Copiar</button>
+					<button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
 				</section>
 			</section>
     	
