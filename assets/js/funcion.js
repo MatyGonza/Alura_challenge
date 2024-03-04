@@ -26,7 +26,7 @@ function btnEncriptar(){
     msjSalida.value = txtEncriptada
     msjEntrada.value = "";
     msjSalida.style.backgroundImage = "none";
-    document.querySelector(".myP2").style.visibility = "hidden";
+    document.querySelector(".contenedor-texto-secundario").style.visibility = "hidden";
 
 }
 
@@ -37,7 +37,7 @@ function btnDesencriptar(){
     msjEntrada.value = "";
     
     msjSalida.style.backgroundImage = "none";
-    document.querySelector(".myP2").style.visibility = "hidden";
+    document.querySelector(".contenedor-texto-secundario").style.visibility = "hidden";
 }
 
 function btnCopiar(){
@@ -51,24 +51,6 @@ function btnCopiar(){
 }
 
 
-
-/*
-S
-
-msjEntrada.addEventListener("input", () => {
-
-    const nombre = msjEntrada.value;
-    const regex = /^[a-z]+$/;
-
-    if (!regex.test(nombre)) {
-    msjEntrada.classList.add("error");
-    msjEntrada.setCustomValidity("Solo se permiten letras minúsculas");
-    } else {
-    msjEntrada.classList.remove("error");
-    msjEntrada.setCustomValidity("");
-    }
-});
- */
 
 function encriptar(inputTxtEncriptada){
     let matrizCodigo = [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]];
